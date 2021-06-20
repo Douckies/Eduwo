@@ -1,0 +1,12 @@
+.button:hover:not([disabled]) {
+	color: white;
+	outline: none;
+}
+
+button:disabled {
+	opacity: 50%;
+}
+
+button[disabled]:hover {
+	color: black;
+}
